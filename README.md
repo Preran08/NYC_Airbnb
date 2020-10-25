@@ -83,34 +83,16 @@ We are removing, last review as there are too many unknowns and it is a date tim
 
 
 
-Output:
-
-
-
-After cleaning our dataset, we can run the ISNULL () method to confirm that there is no NULL value that’s present. And there is no feature with name LAST_REVIEW as we have removed it.
-
-
-
- 
 
     3. Data visualization:
 
 After cleaning our dataset, we will now move onto the data visualization part.
-
-    a. Let’s observe the placement of hotels as per the neighborhood group. 
-
-
-
-Output:
 
 
 New York city has % county level administrative boroughs namely Manhattan, Brooklyn, queens, Bronx and Staten island. From the above plot, we can conclude that the top boroughs of New York are Manhattan, Brooklyn and Queens. while the least belongs to Bronx and Staten island. 
 
     b. Now let’s observe the spread of hotel according to longitude and latitude:
 We are using simple linear regression to observe the latitude vs longitude graph as per the neighborhood group. 
-
-
-Output:
 
 
 This is an interesting plot as we can see how the data is distributed overall, we can get the sense of how the different boroughs of New York city are placed and the area they occupy within the New York city. 
@@ -121,10 +103,6 @@ In order to see the price variation as per the location, we can take the column 
 
 
 
-Output:
-
-
-
 From the plot we can say that Bronx and Staten island are having lot of price variation from 10 to 200 (basically a lot of cheap places to stay). Whereas Manhattan and Brooklyn and Queens are somewhat costlier than the Bronx and Staten Island.
 
     d. We can also see the boxplot for variation in price:
@@ -132,20 +110,11 @@ From the plot we can say that Bronx and Staten island are having lot of price va
 When we plot boxplot of the PRICE Vs NEIGHBOURHOOD_GROUP. The price range that we are taking into consideration for this is from 0 to 500. Because from above graph we can see that most of the prices lie between this price range. 
 
 
-
-Output:
-
-
-
 The boxplot tells about that the median, and the ranges of the price.  As you can see the median for Queens, Staten island and Bronx are almost the same and the prices for Manhattan and Brooklyn are higher.
 
     e. Type of rooms: 
 
 In the ROOM_TYPE column, there are three different type of rooms – entire home/apartment, private room and shared room. We can check and compare the number for each type with the help of histogram or pie chart as below:
-
-
-
-Output:
 
 In the output, you can see that more than half of our listings belong to Entire home or apartment category, for which the count is around 25000. Then we have private room which is also around 45% (i.e. around 22,500). Rest of the rooms belong to shared rooms. 
 
@@ -157,16 +126,11 @@ We can also see the distribution of different types of rooms with respect to eac
 
 
 
-Output:
-
-
     g. Distribution of ROOM_AVAILIBILITY and minimum number if nights:
 We can also have a plot that can help us understand what’s the minimum number of durations that one can get. We can plot the MINIMUM_NIGHTS using DISTPLOT (). This function plots the histogram with a line over it.
 
 
-Output:
-
-Below graph tells us that most of the listings offer between 1 to 5 days of minimum booking. There are also some of the listings which offer minimum of 30 days of stay which also help us understand that some of the listings are looking for people to stay on a monthly basis. Here we have considered a limit as 30, just to showcase the trend. 
+The graph tells us that most of the listings offer between 1 to 5 days of minimum booking. There are also some of the listings which offer minimum of 30 days of stay which also help us understand that some of the listings are looking for people to stay on a monthly basis. Here we have considered a limit as 30, just to showcase the trend. 
 
 
 
