@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Feb 11 19:58:47 2020
 
-@author: NISARG
+@author: Preran
 """
 
 import numpy as np
@@ -11,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn import utils
 
-df = pd.read_csv("/home/preran/Downloads/AB_NYC_2019.csv")
+df = pd.read_csv("/home/preran/Downloads/AB_NYC_2019.csv") #add your data set locatiion
 print(df.head())
 
 #------------------------------------------------------------------
