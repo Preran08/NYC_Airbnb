@@ -1,6 +1,5 @@
 # NYC_Airbnb
-Detail analysis of prices of Airbnb in the New York City
-    (ii) Analysis:
+## Detail analysis of prices of Airbnb in the New York City
 
 The dataset that we are taking into consideration for our final project is AB_NYC_2019.
 
@@ -44,7 +43,7 @@ availability_365
 number of days when listing is available for booking
 
 
-    1. Importing required libraries and dataset into python:
+## Importing required libraries and dataset into python:
 
 We need to import the following libraries into our system: 
     1. Numpy
@@ -56,35 +55,12 @@ We need to import the following libraries into our system:
 We will store the excel file into a data frame object. Let’s call it ds. We can validate the data is right or not by printing first few rows of the dataset.
 
 
-
-Output:
-
-
-Once we get the data into our system we can move forward and perform the required analysis.
-
-
-
-
-    2. Data cleansing:
+## Data cleansing:
 
 In this part, we will clean our dataset so that we can improve our data quality and in doing so increase the performance. 
 
-Let’s first seethe total number of NULL values that we have in our dataset.
 
-
-
-Output:
-
-As only 16 values from name and 21 values from host name are there, we will use forward and backward filling on the dataset to fill those.
-
-In case of column reviews per month, we will use mean of the column to fill up the values.
-
-We are removing, last review as there are too many unknowns and it is a date time type. Hence it would be difficult to predict all those 10052 values.
-
-
-
-
-    3. Data visualization:
+## Data visualization:
 
 After cleaning our dataset, we will now move onto the data visualization part.
 
